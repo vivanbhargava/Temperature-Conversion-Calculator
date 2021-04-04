@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Temperature Conversion Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <center>
+        <ul class="menu">
+            <li class="links">
+                <a href="#fc">
+                    F to C
+                </a>
+            </li>
+            <li class="links">
+                <a href="#fk">
+                    F to K
+                </a>
+            </li>
+            <li class="links">
+                <a href="#cf">
+                    C to F
+                </a>
+            </li>
+            <li class="links">
+                <a href="#ck">
+                    C to K
+                </a>
+            </li>
+            <li class="links">
+                <a href="#kf">
+                    K to F
+                </a>
+            </li>
+            <li class="links">
+                <a href="#kc">
+                    K to C
+                </a>
+            </li>
+        </ul>
+    </center>
+    <h1>
+        Temperature Conversion Calculator
+    </h1>
+    <section id="fc">
+        <h2>
+            Fahrenheit to Celsius
+        </h2>
+        <div class="line"></div>
+        <p>
+            <label>Fahrenheit</label>
+            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+        </p>
+        <p>Celcius: <span id="outputCelcius"></span></p>
+    </section>
+    <section id="fk">
+        <h2>
+            Fahrenheit to Kelvin
+        </h2>
+        <div class="line"></div>
+        <p>
+            <label>Fahrenheit</label>
+            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+        </p>
+        <p>Kelvin: <span id="outputKelvin"></span></p>
+
+    </section>
+    <section id="cf">
+        <h2>
+            Celsius to Fahrenheit
+        </h2>
+        <div class="line"></div>
+        <p>
+            <label>Celsius</label>
+            <input id="inputCelsius" type="number" placeholder="Celsius" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+        </p>
+        <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+    </section>
+    <section id="ck">
+        <h2>
+            Celsius to Kelvin
+        </h2>
+        <div class="line"></div>
+        <p>
+            <label>Celsius</label>
+            <input id="inputCelsius" type="number" placeholder="Celsius" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+        </p>
+        <p>Kelvin: <span id="outputKelvin"></span></p>
+    </section>
+    <section id="kf">
+        <h2>
+            Kelvin to Fahrenheit
+        </h2>
+        <div class="line"></div>
+        <label>Kelvin</label>
+        <input id="inputKelvin" type="number" placeholder="Kelvin" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+        <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+    </section>
+    <section id="kc">
+        <h2>
+            Kelvin to Celsius
+        </h2>
+        <div class="line"></div>
+        <label>Kelvin</label>
+        <input id="inputKelvin" type="number" placeholder="Kelvin" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+
+        <p>Celcius: <span id="outputCelcius"></span></p>
+
+    </section>
+</body></html>

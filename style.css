@@ -1,0 +1,94 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    background: lightgreen;
+}
+
+.menu {
+    top: 0px;
+    z-index: 10;
+    position: fixed;
+    background: white;
+    margin-top: 0px;
+    width: 100%;
+    list-style: none;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+    text-shadow: 2px 2px lightgrey;
+}
+
+h1 {
+    color: blue;
+    margin-top: 20px;
+}
+
+#name {
+    font-family: cursive;
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+.line {
+    height: 5px;
+    width: 100px;
+    background-color: black;
+    margin: 5px auto;
+}
+
+p {
+    max-width: 80%;
+    margin: 25px auto;
+    color: blue;
+}
+
+#fc {
+    background: linear-gradient(lightblue, yellowgreen);
+    margin: -20px;
+}
+
+#fk {
+    background: linear-gradient(yellowgreen, lightblue);
+    margin: -20px;
+}
+ 
+#cf {
+    background: linear-gradient(lightblue, yellowgreen);
+    margin: -20px;
+}
+
+#ck {
+    background: linear-gradient(yellowgreen, lightblue);
+    margin: -20px;
+}
+
+#kf {
+    background: linear-gradient(lightblue, yellowgreen);
+    margin: -20px;
+}
+
+#kc {
+    background: linear-gradient(yellowgreen, lightblue);
+    margin: -20px;
+}
